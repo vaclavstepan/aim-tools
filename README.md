@@ -6,6 +6,7 @@ bash, ogr2ogr, wget, awk
 
 ## Prior to run
 Adjust URL in ``1_retrieve.sh`` to get the right version of the geozones.
+Find the right URL [here](https://aim.rlp.cz/?lang=en&p=uas-gz).
 
 ## Run
 ### Step 1: Retrieve, convert to GPKG and KML

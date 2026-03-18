@@ -1,6 +1,11 @@
 # Retrieve and clip geozones from AIM
 Last change: Vaclav Stepan, 2026-03-18
 
+## Warning/notes
+Features are clipped using clip algorithm, not intersection, so roads and railroad tracks segments are long.
+The export leaves a lot to be desired in styling.
+LKR311B geometry is invalid, when clipped. I don't know why. Workaround is to buffer LKR311A if needed.
+
 ## Requirements
 bash, ogr2ogr, wget, awk 
 
